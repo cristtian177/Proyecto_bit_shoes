@@ -1,5 +1,9 @@
+*{
+  font-family: cursive;
+}
+
 .carousel-caption-2{
-  background: black;
+  background: #000000;
   opacity: 50%;
   height: auto; 
 }
@@ -27,9 +31,7 @@
   text-align: center;
   width: 50%;
 }
-.bg{
-  background-color: #212759c2;
-}
+
 
 .acercade >p{
   color: #ffffff;
@@ -44,7 +46,7 @@
   height: 40em;  
   background-repeat: no-repeat;
   background-position: center;
-  opacity: .8;
+  opacity: .9;
   position: 50%;
   background-image: url(https://images.unsplash.com/photo-1460353581641-37baddab0fa2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80);
 }

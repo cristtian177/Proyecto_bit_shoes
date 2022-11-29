@@ -8,6 +8,7 @@ import { HomeComponent } from './routes/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { OutletComponent } from './components/outlet/outlet.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { OutletComponent } from './components/outlet/outlet.component';
     NavbarComponent,
     BannerComponent,
     OutletComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
