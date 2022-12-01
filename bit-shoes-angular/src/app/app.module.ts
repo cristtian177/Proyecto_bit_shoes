@@ -9,6 +9,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { OutletComponent } from './components/outlet/outlet.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { AdminComponent } from './routes/admin/admin.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { FooterComponent } from './components/footer/footer.component';
     BannerComponent,
     OutletComponent,
     FooterComponent,
+    AdminComponent,
   ],
   imports: [
     BrowserModule,
