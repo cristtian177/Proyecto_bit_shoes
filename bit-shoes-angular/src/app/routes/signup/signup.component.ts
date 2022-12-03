@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { UserService } from 'src/app/services/user.service';
-import { User } from 'src/app/models/user.model';
+import { User } from 'src/app/models/users.model';
 import { NgForm } from '@angular/forms';
 import Swal from 'sweetalert2';
 
@@ -70,4 +70,3 @@ export class SignupComponent implements OnInit {
   }
 
 }
-
