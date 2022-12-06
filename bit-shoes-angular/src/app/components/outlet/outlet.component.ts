@@ -12,7 +12,7 @@ export class OutletComponent implements OnInit {
       title: 'Casuales',
       class: 'img_men_women_outlet',
       description:'',
-      image: 'https://colombia.com.co/wp-content/uploads/2020/06/IMG_20200617_143604_443.jpg',
+      image: 'https://colombia.com.co/wp-content/uploads/2020/05/8664-2512OV-3-600x600.jpg',
     },
     {
       title: 'Casuales',
@@ -76,7 +76,7 @@ export class OutletComponent implements OnInit {
       title: 'Casuales',
       class: 'img_men_women_outlet',
       description:'',
-      image: 'https://colombia.com.co/wp-content/uploads/2020/06/IMG_20200617_143604_443.jpg',
+      image: 'https://michelugt.com/image/cache/catalog/2020/Dama/2020%20fin%20zapatos/Parte%204/IMG-20201110-WA0298-800x800.jpg',
     },
     {
       title: 'Casuales',
@@ -98,7 +98,7 @@ export class OutletComponent implements OnInit {
       title: 'Deportivos',
       class: 'img_men_women_outlet',
       description:'',
-      image: 'https://colombia.com.co/wp-content/uploads/2020/06/IMG_20200617_143604_443.jpg',
+      image: 'https://colombia.com.co/wp-content/uploads/2020/01/Calzado-Deportivo-Rohi-Sport-Marketplace-Colombia-04.jpeg',
     },
     {
       title: 'Deportivos',
