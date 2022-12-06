@@ -9,6 +9,13 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { OutletComponent } from './components/outlet/outlet.component';
 import { FooterComponent } from './components/footer/footer.component';
+<<<<<<< HEAD
+import { SignupComponent } from './routes/signup/signup.component';
+=======
+>>>>>>> cris
+import { AdminComponent } from './routes/admin/admin.component';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -19,10 +26,17 @@ import { FooterComponent } from './components/footer/footer.component';
     BannerComponent,
     OutletComponent,
     FooterComponent,
+<<<<<<< HEAD
+    SignupComponent,
+=======
+>>>>>>> cris
+    AdminComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

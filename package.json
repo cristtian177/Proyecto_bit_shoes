@@ -1,0 +1,19 @@
+{
+  "name": "proyecto_bit_shoes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cristtian177/Proyecto_bit_shoes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cristtian177/Proyecto_bit_shoes/issues"
+  },
+  "homepage": "https://github.com/cristtian177/Proyecto_bit_shoes#readme"
+}
