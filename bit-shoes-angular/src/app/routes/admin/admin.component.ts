@@ -1,26 +1,12 @@
 import { Component, OnInit } from '@angular/core';
-<<<<<<< HEAD
-=======
 import { ProductService } from 'src/app/services/product.service';
 import { NgForm } from '@angular/forms';
 import { Product } from 'src/app/models/product.model';
 import Swal from 'sweetalert2';// sweetalert2
->>>>>>> cris
 
 @Component({
   selector: 'app-admin',
   templateUrl: './admin.component.html',
-<<<<<<< HEAD
-  styleUrls: ['./admin.component.css']
-})
-export class AdminComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
-=======
   styleUrls: ['./admin.component.css'],
 })
 export class AdminComponent implements OnInit {
@@ -135,5 +121,4 @@ export class AdminComponent implements OnInit {
   fillForm(product: Product){
     this.productService.currentProduct = product
   }
->>>>>>> cris
 }

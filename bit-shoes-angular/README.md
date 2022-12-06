@@ -1,6 +1,8 @@
-# BitShoesAngular
+# Do it "npm i" before run this project !!!
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.7.
+# BitShopFront
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.6.
 
 ## Development server
 

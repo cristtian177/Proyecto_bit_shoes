@@ -1,28 +1,31 @@
-<nav class="navbar navbar-expand-lg shadow-lg p-2 navbar-dark bg-dark">
-  <div class="container-fluid">
-    <div>
-      <a class="navbar-brand fs-2 " href="#" style="font-family: cursive"
-        >Bit Shoes</a
-      >
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto d-flex align-items-center">
+          <a class="nav-link" [routerLink]="['/home']">Tienda</a>
+          <a class="nav-link" *ngIf="this.userService.isAdmin()" [routerLink]="['/admin']">Admin</a>
 
-    </div>
-    <button
-      class="navbar-toggler bg-dark"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#navbarNavAltMarkup"
-      aria-controls="navbarNavAltMarkup"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav w-100 d-flex justify-content-center">
-        <a class="nav-link" href="">Outlet</a>
-        <a class="nav-link" href="">Hombre</a>
-        <a class="nav-link" href="">Mujer</a>
+          <div class="dropdown nav-link" *ngIf="this.userService.isLoggedIn()">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              {{ this.userService.decodeToken().firstName + " " + this.userService.decodeToken().lastName}}
+            </a>
+          
+            
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" style="cursor: pointer;">Configuración</a></li>
+              <li><a class="dropdown-item" href="#">Ver Perfil</a></li>
+              <hr class="dropdown-divider">
+              <li><a class="dropdown-item" (click)="this.userService.logOut()">Cerrar Sesión</a></li>
+            </ul>
+          </div>
+
+          <a class="nav-link" *ngIf="!this.userService.isLoggedIn()" [routerLink]="['/login']">Login</a>
+          <a class="nav-link" *ngIf="!this.userService.isLoggedIn()" [routerLink]="['/signup']">Signup</a>
+        </div>
       </div>
     </div>
-  </div>
-</nav>
+  </nav>

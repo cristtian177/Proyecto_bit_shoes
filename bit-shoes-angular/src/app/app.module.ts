@@ -3,40 +3,34 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CarouselComponent } from './components/carousel-item/carousel.component';
-import { HomeComponent } from './routes/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
-import { BannerComponent } from './components/banner/banner.component';
-import { OutletComponent } from './components/outlet/outlet.component';
-import { FooterComponent } from './components/footer/footer.component';
-<<<<<<< HEAD
+import { HomeComponent } from './routes/home/home.component';
+import { LoginComponent } from './routes/login/login.component';
 import { SignupComponent } from './routes/signup/signup.component';
-=======
->>>>>>> cris
 import { AdminComponent } from './routes/admin/admin.component';
+import { Page404Component } from './routes/page404/page404.component';
+import { CardComponent } from './components/card/card.component';
+import { HttpClientModule } from '@angular/common/http' //-- permite consumir apis con el cliente http de angular
 import { FormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http';
+import { ShoppingCartComponent } from './routes/shopping-cart/shopping-cart.component'; //-- permite capturar formularios en angular
 
 @NgModule({
   declarations: [
     AppComponent,
-    CarouselComponent,
-    HomeComponent,
     NavbarComponent,
-    BannerComponent,
-    OutletComponent,
-    FooterComponent,
-<<<<<<< HEAD
+    HomeComponent,
+    LoginComponent,
     SignupComponent,
-=======
->>>>>>> cris
     AdminComponent,
+    Page404Component,
+    CardComponent,
+    ShoppingCartComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule,
-    HttpClientModule
+    HttpClientModule, //-- permite consumir apis con el cliente http de angular
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

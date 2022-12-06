@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'bit-shoes-angular'`, () => {
+  it(`should have as title 'bit-shop-front'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('bit-shoes-angular');
+    expect(app.title).toEqual('bit-shop-front');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('bit-shoes-angular app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('bit-shop-front app is running!');
   });
 });

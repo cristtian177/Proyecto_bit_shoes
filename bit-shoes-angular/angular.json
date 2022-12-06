@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "bit-shoes-angular": {
+    "bit-shop-front": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/bit-shoes-angular",
+            "outputPath": "dist/bit-shop-front",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -69,10 +69,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "bit-shoes-angular:build:production"
+              "browserTarget": "bit-shop-front:build:production"
             },
             "development": {
-              "browserTarget": "bit-shoes-angular:build:development"
+              "browserTarget": "bit-shop-front:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -80,7 +80,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "bit-shoes-angular:build"
+            "browserTarget": "bit-shop-front:build"
           }
         },
         "test": {
@@ -104,6 +104,6 @@
     }
   },
   "cli": {
-    "analytics": "55c10efa-e795-490e-a886-fdac0ecccb45"
+    "analytics": false
   }
 }
