@@ -9,7 +9,10 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { OutletComponent } from './components/outlet/outlet.component';
 import { FooterComponent } from './components/footer/footer.component';
+<<<<<<< HEAD
 import { SignupComponent } from './routes/signup/signup.component';
+=======
+>>>>>>> cris
 import { AdminComponent } from './routes/admin/admin.component';
 
 @NgModule({
@@ -21,7 +24,10 @@ import { AdminComponent } from './routes/admin/admin.component';
     BannerComponent,
     OutletComponent,
     FooterComponent,
+<<<<<<< HEAD
     SignupComponent,
+=======
+>>>>>>> cris
     AdminComponent,
   ],
   imports: [
