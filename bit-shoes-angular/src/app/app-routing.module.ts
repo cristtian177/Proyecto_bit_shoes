@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { OutletComponent } from './components/outlet/outlet.component';
 import { AdminGuard } from './guards/admin.guard';
 import { UserGuard } from './guards/user.guard';
 import { AdminComponent } from './routes/admin/admin.component';
@@ -7,7 +8,6 @@ import { HombreComponent } from './routes/hombre/hombre.component';
 import { HomeComponent } from './routes/home/home.component';
 import { LoginComponent } from './routes/login/login.component';
 import { MujerComponent } from './routes/mujer/mujer.component';
-import { OutletComponent } from './routes/outlet/outlet.component';
 import { Page404Component } from './routes/page404/page404.component';
 import { ShoppingCartComponent } from './routes/shopping-cart/shopping-cart.component';
 import { SignupComponent } from './routes/signup/signup.component'

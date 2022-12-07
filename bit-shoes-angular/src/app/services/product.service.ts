@@ -18,7 +18,7 @@ export class ProductService {
   }
 
   getProducts(){
-    return this.http.get(`${this.URL_API}/get-products`)
+    return this.http.get(`${this.URL_API}/get-shoes`)
   }
 
   createProduct(data: any){
@@ -26,11 +26,11 @@ export class ProductService {
   }
 
   deleteProduct(id: string){
-    return this.http.delete(`${this.URL_API}/delete-product?id=${id}`)
+    return this.http.delete(`${this.URL_API}/delete-shoes?id=${id}`)
   }
 
   updateProduct(id: string, data: any){
-    return this.http.put(`${this.URL_API}/update-product?id=${id}`, data)
+    return this.http.put(`${this.URL_API}/update-shoes?id=${id}`, data)
   }
 
 }

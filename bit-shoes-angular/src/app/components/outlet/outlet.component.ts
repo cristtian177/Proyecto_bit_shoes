@@ -13,19 +13,19 @@ export class OutletComponent implements OnInit {
       title: 'Casuales',
       class: 'img_men_women_outlet',
       description:'',
-      image: 'https://colombia.com.co/wp-content/uploads/2020/05/8664-2512OV-3-600x600.jpg',
+      image: '',
     },
     {
       title: 'Casuales',
       class: 'img_men_women_outlet',
             description: '',
-      image: 'https://michelugt.com/image/cache/catalog/2020/Dama/2020%20fin%20zapatos/Parte%204/IMG-20201110-WA0298-800x800.jpg',
+      image: '',
     },
     {
       title: 'Casuales',
       class: 'img_men_women_outlet',
       description: '',
-      image: 'https://cf.shopee.com.co/file/9419eaf9335c2d507c78988a92873156',
+      image: '',
     },
 
   ]
@@ -56,13 +56,13 @@ export class OutletComponent implements OnInit {
       title: 'Para casa',
       class: 'img_men_women_outlet',
       description:'',
-      image: 'https://colombia.com.co/wp-content/uploads/2020/06/IMG_20200617_143604_443.jpg',
+      image: 'https://m.media-amazon.com/images/I/71lqGi4DQ3L._AC_UL1500_.jpg',
     },
     {
       title: 'Para casa',
       class: 'img_men_women_outlet',
             description: '',
-      image: 'https://michelugt.com/image/cache/catalog/2020/Dama/2020%20fin%20zapatos/Parte%204/IMG-20201110-WA0298-800x800.jpg',
+      image: 'https://m.media-amazon.com/images/I/51IgLptkkHL._AC_UL1261_.jpg',
     },
     {
       title: 'Para casa',
@@ -99,19 +99,19 @@ export class OutletComponent implements OnInit {
       title: 'Deportivos',
       class: 'img_men_women_outlet',
       description:'',
-      image: 'https://colombia.com.co/wp-content/uploads/2020/01/Calzado-Deportivo-Rohi-Sport-Marketplace-Colombia-04.jpeg',
+      image: 'https://colombia.com.co/wp-content/uploads/2022/06/Zapatos-Tenis-Vinotinto-Con-Toques-Negros-Calzado-JY.jpg',
     },
     {
       title: 'Deportivos',
       class: 'img_men_women_outlet',
             description: '',
-      image: 'https://michelugt.com/image/cache/catalog/2020/Dama/2020%20fin%20zapatos/Parte%204/IMG-20201110-WA0298-800x800.jpg',
+      image: 'https://colombia.com.co/wp-content/uploads/2020/01/Calzado-Deportivo-Rohi-Sport-Marketplace-Colombia-04.jpeg',
     },
     {
       title: 'Deportivos',
       class: 'img_men_women_outlet',
       description: '',
-      image: 'https://cf.shopee.com.co/file/9419eaf9335c2d507c78988a92873156',
+      image: 'https://colombia.com.co/wp-content/uploads/2022/06/Zapatos-Tenis-Calzado-Casual-Blancos-Con-Toque-Azul-Turquesa-Calzado-JY.jpg',
     },
   ]
 
@@ -120,7 +120,7 @@ export class OutletComponent implements OnInit {
       title: 'Sandalias',
       class: 'img_men_women_outlet',
       description:'',
-      image: 'https://colombia.com.co/wp-content/uploads/2020/06/IMG_20200617_143604_443.jpg',
+      image: 'https://michelugt.com/image/cache/catalog/2020/Dama/2020%20fin%20zapatos/Parte%204/IMG-20201110-WA0298-800x800.jpg',
     },
     {
       title: 'Sandalias',
