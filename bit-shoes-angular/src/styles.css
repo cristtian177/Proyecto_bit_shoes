@@ -1,1 +1,67 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    font-family: cursive;
+  }
+  
+  .carousel-caption-2{
+    background: #000000;
+    opacity: 50%;
+    height: auto; 
+  }
+  
+  .img_men_women_outlet{
+    height: 300px;
+    max-height: 500px !important;
+  
+    width: 30%;
+    object-fit: cover !important;
+  }
+  
+  .img_men_women{
+    height: 500px;
+    max-height: 500px !important;
+  
+    max-width: 30rem;
+    width: 100%;
+    object-fit: cover !important;
+  }
+  
+  .acercade-titulo{
+    background-color: #ffd369;
+    color: #000000;
+    text-align: center;
+    width: 50%;
+  }
+  
+  
+  .acercade >p{
+    color: #ffffff;
+  }
+  .tamañobtn{
+    width: 200px;
+    border-radius: .5em;
+  }
+  
+  .container-md{
+    width: 50em;
+    height: 40em;  
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: .9;
+    position: 50%;
+    background-image: url(https://images.unsplash.com/photo-1460353581641-37baddab0fa2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80);
+  }
+  
+  .texto-banner{
+    color: #000000;
+    font-weight: 700;
+  
+    border-bottom: #ff0000 1px solid;
+  
+   
+  }
+  .texto-banner2{
+    color: #000000;
+    font-weight: 700 ;
+    padding: .5em;
+    border-bottom: #ff0000 1px solid;
+  }

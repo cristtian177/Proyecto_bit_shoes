@@ -8,7 +8,7 @@ import { Product } from '../models/product.model'
 
 export class ProductService {
 
-  URL_API = "http://localhost:5000/product"
+  URL_API = "http://localhost:5000/shoes"
   products: any //listar los productos
   currentProduct: Product //crear - actualizar - eliminar el formulario
   shoppingCart: any
@@ -22,7 +22,7 @@ export class ProductService {
   }
 
   createProduct(data: any){
-    return this.http.post(`${this.URL_API}/create-product`, data)
+    return this.http.post(`${this.URL_API}/create-shoes`, data)
   }
 
   deleteProduct(id: string){

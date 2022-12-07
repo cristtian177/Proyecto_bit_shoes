@@ -2,10 +2,12 @@ const mongoose = require("mongoose")
 
 const { Schema } = mongoose
 
-const shoes_Schema = new Schema (
+const shoes_Schema = new Schema ( 
     {
 
         name:        {type: String, required: true},
+        person:   {type: String,  required: true || ''},
+        category:    {type: String, required: true},
         price:       {type: Number, required: true},
         description: {type: String, required: true || 'Description no disponoble por el momento'},
         image:       {type: String, required: true || 'Image no Disponible'},
@@ -20,3 +22,4 @@ const shoes_Schema = new Schema (
     }
 )
 module.exports = mongoose.model( "shoes" , shoes_Schema)
+ 
