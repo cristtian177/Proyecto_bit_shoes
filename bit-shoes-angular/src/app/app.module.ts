@@ -11,6 +11,8 @@ import { OutletComponent } from './components/outlet/outlet.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { SignupComponent } from './routes/signup/signup.component';
 import { AdminComponent } from './routes/admin/admin.component';
+import { HombreComponent } from './routes/hombre/hombre.component';
+import { MujerComponent } from './routes/mujer/mujer.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +25,8 @@ import { AdminComponent } from './routes/admin/admin.component';
     FooterComponent,
     SignupComponent,
     AdminComponent,
+    HombreComponent,
+    MujerComponent,
   ],
   imports: [
     BrowserModule,
