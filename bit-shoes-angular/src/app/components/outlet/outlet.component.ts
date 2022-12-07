@@ -8,24 +8,28 @@ import { ProductService } from 'src/app/services/product.service';
 })
 export class OutletComponent implements OnInit {
 
-  outlet_men_casuales_DB = [
+
+
+   outlet_men_casuales_DB = [
     {
       title: 'Casuales',
       class: 'img_men_women_outlet',
       description:'',
-      image: '',
+      btnText: 'Ver',
+      image: 'https://colombia.com.co/wp-content/uploads/2020/05/7477-1627OV-2.jpg',
+      btnColor: 'bg-primary-gradient',
     },
     {
       title: 'Casuales',
       class: 'img_men_women_outlet',
             description: '',
-      image: '',
+      image: 'https://colombia.com.co/wp-content/uploads/2020/05/5482-3301OV-2.jpg',
     },
     {
       title: 'Casuales',
       class: 'img_men_women_outlet',
       description: '',
-      image: '',
+      image: 'https://colombia.com.co/wp-content/uploads/2020/05/8448A-1291OV-2.jpg',
     },
 
   ]
@@ -35,19 +39,19 @@ export class OutletComponent implements OnInit {
       title: 'Deportivos',
       class: 'img_men_women_outlet',
       description:'',
-      image: 'https://colombia.com.co/wp-content/uploads/2020/06/IMG_20200617_143604_443.jpg',
+      image: 'https://colombia.com.co/wp-content/uploads/2020/05/8215-3301OV-2.jpg',
     },
     {
       title: 'Deportivos',
       class: 'img_men_women_outlet',
             description: '',
-      image: 'https://michelugt.com/image/cache/catalog/2020/Dama/2020%20fin%20zapatos/Parte%204/IMG-20201110-WA0298-800x800.jpg',
+      image: 'https://colombia.com.co/wp-content/uploads/2020/05/8215-3301OV-2.jpg',
     },
     {
       title: 'Deportivos',
       class: 'img_men_women_outlet',
       description: '',
-      image: 'https://cf.shopee.com.co/file/9419eaf9335c2d507c78988a92873156',
+      image: 'https://colombia.com.co/wp-content/uploads/2020/05/8215-3301OV-2.jpg',
     },
   ]
 
@@ -56,19 +60,19 @@ export class OutletComponent implements OnInit {
       title: 'Para casa',
       class: 'img_men_women_outlet',
       description:'',
-      image: 'https://m.media-amazon.com/images/I/71lqGi4DQ3L._AC_UL1500_.jpg',
+      image: 'https://colombia.com.co/wp-content/uploads/2020/08/Sandalia-Crocs-%10Literide-Para-Hombre-Color-Azul-Rey-Marketplace-Colombia-003-600x600.jpg',
     },
     {
       title: 'Para casa',
       class: 'img_men_women_outlet',
             description: '',
-      image: 'https://m.media-amazon.com/images/I/51IgLptkkHL._AC_UL1261_.jpg',
+      image: 'https://colombia.com.co/wp-content/uploads/2020/08/Sandalia-Crocs-%10Literide-Para-Hombre-Color-Azul-Rey-Marketplace-Colombia-003-600x600.jpg',
     },
     {
       title: 'Para casa',
       class: 'img_men_women_outlet',
       description: '',
-      image: 'https://cf.shopee.com.co/file/9419eaf9335c2d507c78988a92873156',
+      image: 'https://colombia.com.co/wp-content/uploads/2020/08/Sandalia-Crocs-%10Literide-Para-Hombre-Color-Azul-Rey-Marketplace-Colombia-003-600x600.jpg',
     },
   ]
 
@@ -132,7 +136,7 @@ export class OutletComponent implements OnInit {
       title: 'Sandalias',
       class: 'img_men_women_outlet',
       description: '',
-      image: 'https://cf.shopee.com.co/file/9419eaf9335c2d507c78988a92873156',
+      image: 'https://michelugt.com/image/cache/catalog/2020/Dama/2020%20fin%20zapatos/Parte%204/IMG-20201110-WA0298-800x800.jpg',
     },
   ]
 
