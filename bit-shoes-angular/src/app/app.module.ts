@@ -17,6 +17,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { OutletComponent } from './components/outlet/outlet.component';
 import { CarouselComponent } from './components/carousel-item/carousel.component';
 import { CarouselWithControlsComponent } from './components/carousel-with-controls/carousel-with-controls.component';
+import { HombreComponent } from './routes/hombre/hombre.component';
+import { MujerComponent } from './routes/mujer/mujer.component';
 
 
 @NgModule({
@@ -34,7 +36,9 @@ import { CarouselWithControlsComponent } from './components/carousel-with-contro
         FooterComponent,
         OutletComponent,
         CarouselComponent,
-        CarouselWithControlsComponent
+        CarouselWithControlsComponent,
+        HombreComponent,
+        MujerComponent
     ],
     providers: [],
     bootstrap: [AppComponent],
